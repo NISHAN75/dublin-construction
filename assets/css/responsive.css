@@ -12,36 +12,156 @@
 }
 /* min-width 1500 */
 @media (max-width: 1500px) {
-   
+    /* ============================ quality section start ============================== */
+    .quality-area .col:nth-child(1) {
+        max-width: 650px;
+    }
+    /* ============================ quality section start ============================== */
 }
 
 /* max-width 1399 */
 @media (max-width: 1399.98px) {
+    /* ============================ quality section start ============================== */
+    .quality-inner-content,
+    .quality-content h2 {
+        margin-left: 30px;
+    }
+    .quality-area .col:nth-child(1) {
+        max-width: 550px;
+    }
+    .quality-img-wrapper {
+        max-width: 550px;
+    }
+    .quality-img-2 {
+        max-width: 480px;
+    }
+    /* ============================ quality section start ============================== */
 
-
-
+/* ============================ our services section start ============================== */
+    .our-services-area .col:nth-child(1) {
+        max-width: 800px;
+    }
+    .our-services-area .quality-inner-content {
+        max-width: 500px;
+    }
+/* ============================ our services section start ============================== */
 }
 
 /* max-width 1199 */
 @media (max-width: 1199.98px) {
+    
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 
+/* ============================ our services section start ============================== */
+    .our-services-area {
+        margin: 50px 0;
+        padding: 150px 0;
+    }
+    .our-services-area .quality-inner-content {
+        max-width: 450px;
+    }
+/* ============================ our services section start ============================== */
 
+    /* ============================ quality section start ============================== */
+    .quality-area .col:nth-child(1) {
+        max-width: 400px;
+    }
+    .quality-img-wrapper {
+        max-width: 500px;
+        margin-top: -150px;
+        margin-bottom: -150px;
+        margin-left: auto;
+        margin-right: 50px;
+    }
+    .quality-img-2 {
+        max-width: 440px;
+    }
+    .quality-area .quality-content.mb-p {
+        padding: 40px 0;
+    }
+
+    /* ============================ quality section start ============================== */
 
 }
 
 /* max-width 991 */
 @media (max-width: 991.98px) {
-   
+
+        
+    h1 {
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+/* ============================ banner section start ============================== */
+    .banner-content h1 {
+        font-size: 80px;
+    }
+/* ============================ banner section start ============================== */
+
+       /* ============================ quality section start ============================== */
+       .quality-area  .col {
+        flex: 1 0 100%;
+        }
+        .quality-inner-content ,
+        .quality-area .col:nth-child(1) {
+            max-width: 100%;
+        }
+        .quality-img-wrapper {
+            max-width: 500px;
+            margin-top: 0;
+            margin-bottom: -150px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+       /* ============================ quality section end ============================== */
+       /* ============================ our services section start ============================== */
+       .our-services-area .col:nth-child(1) {
+        max-width: 100%;
+    }
+       /* ============================ our services section end ============================== */
 }
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
-
+/* ============================ banner section start ============================== */
+/* .banner-content h1 {
+    font-size: 65px;
+} */
+/* ============================ banner section start ============================== */
 }
 
 /* max-width 575 */
 @media (max-width: 575.98px) {
-   
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
 }
 
 /* max-width 479 */

@@ -516,9 +516,6 @@ h6 {
     margin-left: 100px;
     max-width: 620px;
 }
-.quality-content p {
-    max-width: 530px;
-}
 .quality-inner-content {
     margin-left: 100px;
     max-width: 620px;
@@ -537,15 +534,11 @@ h6 {
 .quality-area .row{
     --bs-gutter-x:0px;
 }
-.quality-area .col{
-    flex: 1 0 100%;
-}
-.quality-area .col:nth-child(1){
+.quality-area .col:nth-child(1) {
+    flex-basis: 719px;
     max-width: 719px;
 }
-.quality-area .col:nth-child(2){
-    max-width: 683px;
-}
+
 .quality-bg {
     position: absolute;
     left: 0;
