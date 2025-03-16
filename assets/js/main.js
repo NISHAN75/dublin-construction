@@ -5,10 +5,39 @@
         // nice select
         // $('select').niceSelect();
 
+
+        // card hover effect
+        $(".integrated-card-wrapper").hover(
+          function () {
+            $(".integrated-card-img").addClass("effect-active");
+            $(this).find(".integrated-card-img").removeClass("effect-active");
+          },
+          function () {
+            $(".integrated-card-img").removeClass("effect-active");
+          }
+        );
        
 
+      // brand slider 
+      let brandSlider = new Swiper(".tp-brand-slider", {
+        slidesPerView: "auto",
+        loop: true,
+        spaceBetween: 145,
+        allowTouchMove: false,
+        speed: 4000,
+        autoplay: {
+          delay: 1,
+          disableOnInteraction: true,
+        },
 
-
+      });
+      let singleProjectSlider = new Swiper(".featured-project-slider", {
+        spaceBetween: 70,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }
+    });
 
 
         
@@ -121,7 +150,7 @@
         gsap.to(".arrow-1", {
             x: 0,
             y: 0,
-            duration: 1.2,
+            duration: 2,
             ease: "power4.out",
             scrollTrigger: {
               trigger: ".animation-line-wrapper",
@@ -133,7 +162,7 @@
           gsap.to(".arrow-2", {
             x: 0,
             y: 0,
-            duration: 1.2,
+            duration: 2,
             ease: "power4.out",
             scrollTrigger: {
               trigger: ".animation-line-wrapper",

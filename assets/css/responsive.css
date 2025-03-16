@@ -85,6 +85,20 @@
 
     /* ============================ quality section start ============================== */
 
+/* ============================ integrated services section start ============================== */
+    .integrated-card-wrapper .integrated-card-img img {
+        min-height: 270px;
+        object-fit: cover;
+    }
+/* ============================ integrated services section start ============================== */
+
+/* ============================ about  section start ============================== */
+.about-section-area .col:nth-child(1) {
+    max-width: 500px;
+    flex-basis: 500px;
+}
+/* ============================ about  section end ============================== */
+
 }
 
 /* max-width 991 */
@@ -143,7 +157,43 @@
         width: 100%;
         margin-bottom: 50px;
     }
+    .our-services-area {
+        margin: 80px 0;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .our-services-area::before {
+        top: 0;
+        height: 100%;
+        width: 100%;;
+        transform: translateY(0px);
+        margin-top: 0;
+    }
        /* ============================ our services section end ============================== */
+
+       /* ============================ about  section start ============================== */
+       .about-section-area .col:nth-child(1) {
+            max-width: 100%;
+            flex-basis: 100%;
+        }
+        .about-section-area  .col {
+            flex: 1 0 100%;
+        }
+        .founded-conetn-box {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        .about-section-area {
+            padding: 50px 0;
+        }
+        .founded-title-info h4 {
+            font-size: 24px;
+        }
+        .founded-title-info span {
+            font-size: 120px;
+        }
+       /* ============================ about  section end ============================== */
 }
 
 /* max-width 767 */
@@ -153,6 +203,39 @@
     font-size: 65px;
 } */
 /* ============================ banner section start ============================== */
+
+        /* ============================ about  section start ============================== */
+        .about-section-area .title-wrapper h2 {
+            margin-bottom: 0;
+        }
+        .title-wrapper {
+            gap: 10px;
+            flex-direction: column;
+        }
+        /* ============================ about  section end ============================== */
+
+        /* ============================ featured Projects section start ============================== */
+        .featured-button-wrapper > div {
+            flex: 1 0 100%;
+        }
+        .featured-button-wrapper.d-flex.align-items-center {
+            max-width: 100%;
+            flex-direction: column;
+        }
+        .featured-line-wrapper {
+            max-width: 100%;
+        }
+        .featured-line-wrapper span {
+            height: 2px;
+            width: 250px;
+            transform: skewX(0deg);
+            display: block;
+            margin-bottom: 4px;
+        }
+        .featured-line-wrapper span:last-child{
+            margin-bottom: 0;
+        }
+        /* ============================ featured Projects section end ============================== */
 }
 
 /* max-width 575 */
@@ -173,7 +256,14 @@
 /* max-width 479 */
 @media (max-width: 479.98px) {
 
- 
+        /* ============================ about  section start ============================== */
+        .founded-title-info h4 {
+            font-size: 20px;
+        }
+        .founded-title-info span {
+            font-size: 100px;
+        }
+        /* ============================ about  section end ============================== */
 
 }
 
