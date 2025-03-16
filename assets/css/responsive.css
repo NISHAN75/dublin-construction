@@ -137,6 +137,12 @@
        .our-services-area .col:nth-child(1) {
         max-width: 100%;
     }
+    .services-bg {
+        position: relative;
+        height: 400px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
        /* ============================ our services section end ============================== */
 }
 
