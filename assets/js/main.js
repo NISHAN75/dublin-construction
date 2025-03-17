@@ -60,34 +60,79 @@
             $(".integrated-card-img").removeClass("effect-active");
           }
         );
-       
+
+        // featured project slider
+        let singleProjectSlider = new Swiper(".featured-project-slider", {
+          spaceBetween: 70,
+          navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+          }
+      });
+  
 
       // brand slider 
+      // let brandSlider = new Swiper(".tp-brand-slider", {
+      //   slidesPerView: 5,
+      //   loop: true,
+      //   spaceBetween: 145,
+      //   allowTouchMove: false,
+      //   speed: 4000,
+      //   autoplay: {
+      //     delay: 1,
+      //     disableOnInteraction: true,
+      //   },
+      // });
       let brandSlider = new Swiper(".tp-brand-slider", {
         slidesPerView: "auto",
         loop: true,
         spaceBetween: 145,
-        allowTouchMove: false,
+        // centeredSlider:true,
+        // allowTouchMove: false,
         speed: 4000,
         autoplay: {
-          delay: 1,
-          disableOnInteraction: true,
+            delay: 1,
+            disableOnInteraction: true,
         },
-
+        rtl: false, 
       });
-      let singleProjectSlider = new Swiper(".featured-project-slider", {
-        spaceBetween: 70,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+    
+    let lastScrollTop = 0;
+    
+
+    function checkScrollDirection() {
+        let scrollTop = window.scrollY;  // Get current scroll position
+        let scrollDirection = scrollTop > lastScrollTop ? "down" : "up";
+
+        if (scrollDirection === "down") {
+            brandSlider.params.rtl = true; 
+            console.log("Scrolling down: Right to Left");
         }
+        if (scrollDirection === "up") {
+            brandSlider.params.rtl = false;  // Left to right
+            // brandSlider.slidePrev();
+            console.log("Scrolling up: Left to Right");
+        }
+        lastScrollTop = scrollTop;
+    }
+    function onSliderInView(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                console.log('Brand slider is in the viewport!');
+                window.addEventListener("scroll", checkScrollDirection);
+            } else {
+                window.removeEventListener("scroll", checkScrollDirection);
+            }
+        });
+    }
+    
+    // Set up the Intersection Observer
+    let observer = new IntersectionObserver(onSliderInView, {
+        threshold: 0.5 // Trigger when 50% of the slider is in the viewport
     });
-
-
-        
-
-
-
+    
+    // Observe the brand slider
+    observer.observe(document.querySelector('.tp-brand-slider'));
  
         // animation
         gsap.registerPlugin(ScrollTrigger);

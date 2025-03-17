@@ -17,6 +17,7 @@
         max-width: 650px;
     }
     /* ============================ quality section start ============================== */
+
 }
 
 /* max-width 1399 */
@@ -69,6 +70,9 @@
     left: 0;
 }
 /* ============================ featured Projects section end ============================== */
+.footer-shape-img {
+    left: 0;
+}
 }
 
 /* max-width 1199 */

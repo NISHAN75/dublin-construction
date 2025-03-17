@@ -1006,7 +1006,7 @@ h6 {
 
 /* ============================ about  section end ============================== */
 .our-clinet-area {
-    padding: 90px 0;
+    padding: 90px 0 75px;
 }
 .tp-brand-slider .swiper-wrapper {
     -webkit-transition-timing-function: linear;
@@ -1042,7 +1042,6 @@ h6 {
 .tp-brand-img img {
     max-width: 160px;
     max-height: 100px;
-    opacity: 0.4;
 }
 .our-clinet-area h3 span {
     padding: 0 50px;
@@ -1197,7 +1196,7 @@ h6 {
 }
 .footer-shape-img {
     position: absolute;
-    left: 0;
+    left: -55px;
     top: -100px;
     z-index: -1;
 }
