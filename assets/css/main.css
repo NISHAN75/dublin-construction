@@ -622,9 +622,16 @@ h6 {
 .header-offcanvas .mobile-nav > ul > li .sub-menu li {
     padding-bottom: 0;
 }
+.header-offcanvas .mobile-nav > ul > li:last-child{
+    padding-bottom: 0;
+}
 .header-offcanvas .mobile-nav .sub-menu li a {
     font-weight: 300;
     line-height: 1.7;
+    transition: all 0.5s ease;
+}
+.header-offcanvas .mobile-nav .sub-menu li a:hover{
+    color: #BF1F1F;
 }
 .header-offcanvas .mobile-nav > ul > li > a svg {
     transition: all 0.5s ease;
@@ -632,6 +639,12 @@ h6 {
 }
 .header-offcanvas .mobile-nav > ul > li > a.rotate svg {
     transform: rotate(-180deg);
+}
+.offcanvas-bottom-btn {
+    margin-top: 37px;
+}
+.offcanvas-bottom-btn .btn-1 {
+    padding: 9.5px 35px;
 }
 /* header offcanvas end*/
 /* ============================ header section end ============================== */
@@ -1204,6 +1217,7 @@ h6 {
 .footer-button-wrapper{
     gap: 26px;
 }
+
 .footer-button-wrapper .btn-1 {
     padding: 9.5px 27.7px;
 }
