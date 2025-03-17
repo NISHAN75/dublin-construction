@@ -45,6 +45,30 @@
         max-width: 500px;
     }
 /* ============================ our services section start ============================== */
+/* ============================ featured Projects section start ============================== */
+.project-right-shape ,
+.project-left-shape {
+    transform: translate(-55%, -90px);
+    height: 150px;
+    width: 150px;
+}
+.project-right-shape {
+    transform: translate(68px, -90px);
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: -40px;
+    right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: -40px;
+}
+.integrated-card-wrapper.version-2 .integrated-btn {
+    right: 0;
+}
+.integrated-card-wrapper .integrated-btn {
+    left: 0;
+}
+/* ============================ featured Projects section end ============================== */
 }
 
 /* max-width 1199 */
@@ -54,6 +78,31 @@
         padding-right: 20px;
         padding-left: 20px;
     }
+
+/* ============================ header section start ============================== */
+.main-menu {
+    gap: 20px;
+}
+.main-menu > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    z-index: 1;
+}
+.main-menu-wrapper::after {
+    right: -1130px;
+}
+.header-logo img {
+    max-width: 150px;
+}
+.header-area::before {
+    width: calc(50% - 140px);
+    clip-path: polygon(0 0, 94% 0, calc(100% - 227px) 100%, 0 100%);
+}
+.header-area {
+    padding: 12.5px 0;
+}
+/* ============================ header section start ============================== */
 
 /* ============================ our services section start ============================== */
     .our-services-area {
@@ -98,6 +147,36 @@
     flex-basis: 500px;
 }
 /* ============================ about  section end ============================== */
+/* ============================ featured Projects section start ============================== */
+.project-right-shape, .project-left-shape {
+    transform: translate(-38%, -88px);
+    height: 100px;
+    width: 100px;
+}
+.project-right-shape {
+    transform: translate(37px, -90px);
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: -15px;
+    right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: -15px;
+}
+/* ============================ featured Projects section end ============================== */
+
+/* ============================ cta section start ============================== */
+.cta-area::before {
+    width: calc(50% - 20px);
+}
+.featured-project-area {
+    padding-bottom: 100px;
+}
+/* ============================ cta section end ============================== */
+
+
+
+
 
 }
 
@@ -124,10 +203,33 @@
     h5 {
         font-size: 20px;
     }
+/* ============================ header section start ============================== */
 
+.header-area::before {
+    width: calc(50% + 100px);
+    clip-path: polygon(0 0, 100% 0, calc(50% + 50px) 100%, 0 100%);
+}
+/* ============================ header section end ============================== */
 /* ============================ banner section start ============================== */
     .banner-content h1 {
         font-size: 80px;
+    }
+    .banner-area {
+        min-height: 100%;
+        padding: 120px 0;
+        height: 100%;
+    }
+    .bottom-arrow ,
+    .top-arrow {
+        transform: translate(0px, 0px);
+    }
+    .quality-img-2 {
+        left: 50%;
+        opacity: 1;
+    }
+    .quality-img-2 {
+        max-width: 100%;
+        width: calc(100% - 50px);
     }
 /* ============================ banner section start ============================== */
 
@@ -194,14 +296,91 @@
             font-size: 120px;
         }
        /* ============================ about  section end ============================== */
+
+       /* ============================ featured Projects section start ============================== */
+       .project-right-shape, .project-left-shape{
+        display: none;
+       }
+       .title-info {
+            margin-left: 0;
+        }
+        .swiper-btn {
+            height: 50px;
+            width: 100px;
+        }
+        .swiper-button-next svg, .swiper-button-prev svg {
+            height: 30px;
+            width: 30px;
+        }
+        .swiper-button-prev.swiper-btn {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+        }
+        .swiper-button-next.swiper-btn {
+            clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+        }
+       /* ============================ featured Projects section end ============================== */
+
+       /* ============================ cta section start ============================== */
+       .cta-bg {
+            position: relative;
+            left: 0;
+            top: 0;
+            height: 400px;
+            width: 100%;
+            z-index: 1;
+        }
+        .cta-content {
+            max-width: 100%;
+            margin-right: auto;
+            margin-left: 0;
+        }
+        .cta-area {
+            padding: 0;
+            padding-bottom: 50px;
+            background-color: #4C4D4F;
+        }
+        .cta-area::before{
+            display: none;
+        }
+        .cta-area .title-line-animation-wrapper {
+            transform: rotate(90deg) translateX(-280px);
+            max-width: 383px;
+            margin-left: 70px;
+            margin-top: 0;
+        }
+       /* ============================ cta section end ============================== */
+
+       /* ============================ footer section end ============================== */
+       .footer-bottom-content  .row {
+            --bs-gutter-y: 30px;
+        }
+        .footer-title-wrapper h2 {
+            font-size: 48px;
+        }
+        .footer-inner-left-content {
+            gap: 15px;
+        }
+        .footer-shape-img {
+            top: -40px;
+        }
+       /* ============================ footer section end ============================== */
 }
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
 /* ============================ banner section start ============================== */
-/* .banner-content h1 {
-    font-size: 65px;
-} */
+    .banner-content h1 {
+        font-size: 60px;
+    }
+    .banner-area .animation-line-wrapper {
+        padding: 70px 0;
+        padding-left: 70px;
+    }
+    .wrapper-line-1::before {
+        top: -25px;
+        height: calc(100% + 50px);
+
+    }
 /* ============================ banner section start ============================== */
 
         /* ============================ about  section start ============================== */
@@ -235,7 +414,36 @@
         .featured-line-wrapper span:last-child{
             margin-bottom: 0;
         }
+        .project-slider-img img {
+            min-height: 300px;
+        }
+        .featured-project-slider-area .swiper-button-next, .featured-project-slider-area .swiper-button-prev {
+            top: calc(50% - 55px);
+        }
         /* ============================ featured Projects section end ============================== */
+        /* ============================ cta section start ============================== */
+                .cta-area .title-line-animation-wrapper {
+                    margin-left: 20px;
+                }
+                .cta-area .title-line-animation-wrapper {
+                    transform: rotate(90deg) translateX(-325px);
+                    max-width: 383px;
+                    margin-left: 70px;
+                    margin-top: 0;
+                }
+        /* ============================ cta section end ============================== */
+
+        /* ============================ footer section start ============================== */
+        .copy-right-content-wrapper .col {
+            flex: 1 0 100%;
+        }
+        .other-link-wrapper{
+            margin-top: 30px;
+        }
+        .other-link-wrapper {
+            margin-top: 10px;
+        }
+        /* ============================ footer section end ============================== */
 }
 
 /* max-width 575 */
@@ -244,6 +452,8 @@
         font-size: 40px;
     }
 
+    .cta-content h2 ,
+    .project-slider-content h2,
     h2 {
         font-size: 36px;
     }
@@ -251,11 +461,32 @@
     h3 {
         font-size: 24px;
     }
+
+/* ============================ banner section start ============================== */
+.bottom-arrow {
+    right: 50px;
+ 
+}
+/* ============================ banner section end ============================== */
 }
 
 /* max-width 479 */
 @media (max-width: 479.98px) {
+    .footer-title-wrapper h2 ,
+    .cta-content h2 ,
+    .project-slider-content h2,
+    h2 {
+        font-size: 32px;
+    }
 
+    /* ============================ banner section start ============================== */
+    .banner-content h1 {
+        font-size: 48px;
+    }
+    .bottom-arrow {
+        right: 0px;
+    }
+    /* ============================ banner section end ============================== */
         /* ============================ about  section start ============================== */
         .founded-title-info h4 {
             font-size: 20px;
@@ -265,9 +496,38 @@
         }
         /* ============================ about  section end ============================== */
 
+        /* ============================ cta section start ============================== */
+        .cta-area .title-line-animation-wrapper {
+            transform: rotate(90deg) translateX(-325px);
+        }
+        /* ============================ cta section end ============================== */
+        .featured-project-slider-area .swiper-button-next, .featured-project-slider-area .swiper-button-prev {
+            top: calc(50% - 49px);
+        }
+        .footer-title-wrapper {
+            padding-top: 80px;
+        }
+        .footer-bottom-content {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
 }
 
 /* max-width 383 */
 @media (max-width: 383.98px) {
-  
+          /* ============================ cta section start ============================== */
+          .cta-area .title-line-animation-wrapper {
+            transform: rotate(90deg) translateX(-368px);
+        }
+        /* ============================ cta section end ============================== */
+        .quality-inner-content, .quality-content h2 {
+            margin-left: 20px;
+        }
+}
+
+@media (max-width: 360px) {
+    .banner-area .animation-line-wrapper {
+        padding: 70px 0;
+        padding-left: 44px;
+    }
 }
