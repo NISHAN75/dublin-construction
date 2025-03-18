@@ -6,180 +6,222 @@
 */
 
 /* min-width 1500 */
-@media (max-width: 1600px) {
+@media (max-width: 1600px) {}
 
-    
-}
 /* min-width 1500 */
 @media (max-width: 1500px) {
-    /* ============================ quality section start ============================== */
-    .quality-area .col:nth-child(1) {
-        max-width: 650px;
-    }
-    /* ============================ quality section start ============================== */
+
+	/* ============================ quality section start ============================== */
+	.quality-area .col:nth-child(1) {
+		max-width: 650px;
+	}
+
+	/* ============================ quality section start ============================== */
 
 }
 
 /* max-width 1399 */
 @media (max-width: 1399.98px) {
-    /* ============================ quality section start ============================== */
-    .quality-inner-content,
-    .quality-content h2 {
-        margin-left: 30px;
-    }
-    .quality-area .col:nth-child(1) {
-        max-width: 550px;
-    }
-    .quality-img-wrapper {
-        max-width: 550px;
-    }
-    .quality-img-2 {
-        max-width: 480px;
-    }
-    /* ============================ quality section start ============================== */
+	.main-menu-wrapper {
+		padding-right: 0px;
+	}
 
-/* ============================ our services section start ============================== */
-    .our-services-area .col:nth-child(1) {
-        max-width: 800px;
-    }
-    .our-services-area .quality-inner-content {
-        max-width: 500px;
-    }
-/* ============================ our services section start ============================== */
-/* ============================ featured Projects section start ============================== */
-.project-right-shape ,
-.project-left-shape {
-    transform: translate(-55%, -90px);
-    height: 150px;
-    width: 150px;
-}
-.project-right-shape {
-    transform: translate(68px, -90px);
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: -40px;
-    right: auto;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: -40px;
-}
-.integrated-card-wrapper.version-2 .integrated-btn {
-    right: 0;
-}
-.integrated-card-wrapper .integrated-btn {
-    left: 0;
-}
-/* ============================ featured Projects section end ============================== */
-.footer-shape-img {
-    left: 0;
-}
+	/* ============================ quality section start ============================== */
+	.quality-inner-content,
+	.quality-content h2 {
+		margin-left: 30px;
+	}
+
+	.quality-area .col:nth-child(1) {
+		max-width: 550px;
+	}
+
+	.quality-img-wrapper {
+		max-width: 550px;
+	}
+
+	.quality-img-2 {
+		max-width: 480px;
+	}
+
+	/* ============================ quality section start ============================== */
+
+	/* ============================ our services section start ============================== */
+	.our-services-area .col:nth-child(1) {
+		max-width: 800px;
+	}
+
+	.our-services-area .quality-inner-content {
+		max-width: 500px;
+	}
+
+	/* ============================ our services section start ============================== */
+	/* ============================ featured Projects section start ============================== */
+	.project-right-shape,
+	.project-left-shape {
+		transform: translate(-55%, -90px);
+		height: 150px;
+		width: 150px;
+	}
+
+	.project-right-shape {
+		transform: translate(68px, -90px);
+	}
+
+	.swiper-button-prev,
+	.swiper-rtl .swiper-button-next {
+		left: -40px;
+		right: auto;
+	}
+
+	.swiper-button-next,
+	.swiper-rtl .swiper-button-prev {
+		right: -40px;
+	}
+
+	.integrated-card-wrapper.version-2 .integrated-btn {
+		right: 0;
+	}
+
+	.integrated-card-wrapper .integrated-btn {
+		left: 0;
+	}
+
+	/* ============================ featured Projects section end ============================== */
+	.footer-shape-img {
+		left: 0;
+	}
 }
 
 /* max-width 1199 */
 @media (max-width: 1199.98px) {
-    
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-        padding-right: 20px;
-        padding-left: 20px;
-    }
 
-/* ============================ header section start ============================== */
-.main-menu {
-    gap: 20px;
-}
-.main-menu > ul > li {
-    display: inline-block;
-    margin-right: 10px;
-    position: relative;
-    z-index: 1;
-}
-.main-menu-wrapper::after {
-    right: -1130px;
-}
-.header-logo img {
-    max-width: 150px;
-}
-.header-area::before {
-    width: calc(50% - 140px);
-    clip-path: polygon(0 0, 94% 0, calc(100% - 227px) 100%, 0 100%);
-}
-.header-area {
-    padding: 12.5px 0;
-}
-/* ============================ header section start ============================== */
+	.container,
+	.container-fluid,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
 
-/* ============================ our services section start ============================== */
-    .our-services-area {
-        margin: 50px 0;
-        padding: 150px 0;
-    }
-    .our-services-area .quality-inner-content {
-        max-width: 450px;
-    }
-/* ============================ our services section start ============================== */
+	.header-area .menu-left::before {
+		right: -120px;
+	}
 
-    /* ============================ quality section start ============================== */
-    .quality-area .col:nth-child(1) {
-        max-width: 400px;
-    }
-    .quality-img-wrapper {
-        max-width: 500px;
-        margin-top: -150px;
-        margin-bottom: -150px;
-        margin-left: auto;
-        margin-right: 50px;
-    }
-    .quality-img-2 {
-        max-width: 440px;
-    }
-    .quality-area .quality-content.mb-p {
-        padding: 40px 0;
-    }
+	.main-menu-wrapper::before {
+		left: 150px;
+	}
 
-    /* ============================ quality section start ============================== */
+	/* ============================ header section start ============================== */
+	.main-menu {
+		gap: 20px;
+	}
 
-/* ============================ integrated services section start ============================== */
-    .integrated-card-wrapper .integrated-card-img img {
-        min-height: 270px;
-        object-fit: cover;
-    }
-/* ============================ integrated services section start ============================== */
+	.main-menu>ul>li {
+		display: inline-block;
+		margin-right: 10px;
+		position: relative;
+		z-index: 1;
+	}
 
-/* ============================ about  section start ============================== */
-.about-section-area .col:nth-child(1) {
-    max-width: 500px;
-    flex-basis: 500px;
-}
-/* ============================ about  section end ============================== */
-/* ============================ featured Projects section start ============================== */
-.project-right-shape, .project-left-shape {
-    transform: translate(-38%, -88px);
-    height: 100px;
-    width: 100px;
-}
-.project-right-shape {
-    transform: translate(37px, -90px);
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: -15px;
-    right: auto;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: -15px;
-}
-/* ============================ featured Projects section end ============================== */
+	.header-logo img {
+		max-width: 150px;
+	}
 
-/* ============================ cta section start ============================== */
-.cta-area::before {
-    width: calc(50% - 20px);
-}
-.featured-project-area {
-    padding-bottom: 100px;
-}
-/* ============================ cta section end ============================== */
+	.header-area {
+		padding: 12.5px 0;
+	}
 
+	/* ============================ header section start ============================== */
 
+	/* ============================ our services section start ============================== */
+	.our-services-area {
+		margin: 50px 0;
+		padding: 150px 0;
+	}
 
+	.our-services-area .quality-inner-content {
+		max-width: 450px;
+	}
+
+	/* ============================ our services section start ============================== */
+
+	/* ============================ quality section start ============================== */
+	.quality-area .col:nth-child(1) {
+		max-width: 400px;
+	}
+
+	.quality-img-wrapper {
+		max-width: 500px;
+		margin-top: -150px;
+		margin-bottom: -150px;
+		margin-left: auto;
+		margin-right: 50px;
+	}
+
+	.quality-img-2 {
+		max-width: 440px;
+	}
+
+	.quality-area .quality-content.mb-p {
+		padding: 40px 0;
+	}
+
+	/* ============================ quality section start ============================== */
+
+	/* ============================ integrated services section start ============================== */
+	.integrated-card-wrapper .integrated-card-img img {
+		min-height: 270px;
+		object-fit: cover;
+	}
+
+	/* ============================ integrated services section start ============================== */
+
+	/* ============================ about  section start ============================== */
+	.about-section-area .col:nth-child(1) {
+		max-width: 500px;
+		flex-basis: 500px;
+	}
+
+	/* ============================ about  section end ============================== */
+	/* ============================ featured Projects section start ============================== */
+	.project-right-shape,
+	.project-left-shape {
+		transform: translate(-38%, -88px);
+		height: 100px;
+		width: 100px;
+	}
+
+	.project-right-shape {
+		transform: translate(37px, -90px);
+	}
+
+	.swiper-button-prev,
+	.swiper-rtl .swiper-button-next {
+		left: -15px;
+		right: auto;
+	}
+
+	.swiper-button-next,
+	.swiper-rtl .swiper-button-prev {
+		right: -15px;
+	}
+
+	/* ============================ featured Projects section end ============================== */
+
+	/* ============================ cta section start ============================== */
+	.cta-area::before {
+		width: calc(50% - 20px);
+	}
+
+	.featured-project-area {
+		padding-bottom: 100px;
+	}
+
+	/* ============================ cta section end ============================== */
 
 
 }
@@ -187,351 +229,456 @@
 /* max-width 991 */
 @media (max-width: 991.98px) {
 
-        
-    h1 {
-        font-size: 56px;
-    }
 
-    h2 {
-        font-size: 40px;
-    }
+	h1 {
+		font-size: 56px;
+	}
 
-    h3 {
-        font-size: 28px;
-    }
+	h2 {
+		font-size: 40px;
+	}
 
-    h4 {
-        font-size: 24px;
-    }
+	h3 {
+		font-size: 28px;
+	}
 
-    h5 {
-        font-size: 20px;
-    }
-/* ============================ header section start ============================== */
+	h4 {
+		font-size: 24px;
+	}
 
-.header-area::before {
-    width: calc(50% + 100px);
-    clip-path: polygon(0 0, 100% 0, calc(50% + 50px) 100%, 0 100%);
-}
-/* ============================ header section end ============================== */
-/* ============================ banner section start ============================== */
-    .banner-content h1 {
-        font-size: 80px;
+	h5 {
+		font-size: 20px;
+	}
+    .our-services-area .quality-content p ,
+    .quality-content p,
+    body {
+        font-size: 16px;
     }
-    .banner-area {
-        min-height: 100%;
-        padding: 120px 0;
-        height: 100%;
-    }
-    .bottom-arrow ,
-    .top-arrow {
-        transform: translate(0px, 0px);
-    }
-    .quality-img-2 {
-        left: 50%;
-        opacity: 1;
-    }
-    .quality-img-2 {
-        max-width: 100%;
-        width: calc(100% - 50px);
-    }
-/* ============================ banner section start ============================== */
-
-       /* ============================ quality section start ============================== */
-       .quality-area  .col {
-        flex: 1 0 100%;
-        }
-        .quality-inner-content ,
-        .quality-area .col:nth-child(1) {
-            max-width: 100%;
-        }
-        .quality-img-wrapper {
-            max-width: 500px;
-            margin-top: 0;
-            margin-bottom: -150px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-       /* ============================ quality section end ============================== */
-       /* ============================ our services section start ============================== */
-       .our-services-area .col:nth-child(1) {
-        max-width: 100%;
-    }
-    .services-bg {
-        position: relative;
-        height: 400px;
-        width: 100%;
-        margin-bottom: 50px;
-    }
+    /* all padding */
+    
     .our-services-area {
-        margin: 80px 0;
+        margin: 70px 0 40px;
         padding: 0;
         padding-bottom: 50px;
     }
-    .our-services-area::before {
-        top: 0;
-        height: 100%;
-        width: 100%;;
-        transform: translateY(0px);
-        margin-top: 0;
+    .integrated-services-area {
+        padding-bottom: 50px;
     }
-       /* ============================ our services section end ============================== */
+    .featured-project-area{
+        padding: 50px 0 100px;
+    }
+    .our-clinet-area {
+        padding: 50px 0 0;
+    }
+    .our-clinet-area h3 span {
+        padding: 0 20px;
+    }
+    /* all padding */
 
-       /* ============================ about  section start ============================== */
-       .about-section-area .col:nth-child(1) {
-            max-width: 100%;
-            flex-basis: 100%;
-        }
-        .about-section-area  .col {
-            flex: 1 0 100%;
-        }
-        .founded-conetn-box {
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 50px;
-        }
-        .about-section-area {
-            padding: 50px 0;
-        }
-        .founded-title-info h4 {
-            font-size: 24px;
-        }
-        .founded-title-info span {
-            font-size: 120px;
-        }
-       /* ============================ about  section end ============================== */
+	/* ============================ banner section start ============================== */
+	.banner-content h1 {
+		font-size: 80px;
+	}
 
-       /* ============================ featured Projects section start ============================== */
-       .project-right-shape, .project-left-shape{
-        display: none;
-       }
-       .title-info {
-            margin-left: 0;
-        }
-        .swiper-btn {
-            height: 50px;
-            width: 100px;
-        }
-        .swiper-button-next svg, .swiper-button-prev svg {
-            height: 30px;
-            width: 30px;
-        }
-        .swiper-button-prev.swiper-btn {
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 16px 100%, 0 calc(100% - 16px));
-        }
-        .swiper-button-next.swiper-btn {
-            clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
-        }
-       /* ============================ featured Projects section end ============================== */
+	.banner-area {
+		min-height: 100%;
+		padding: 120px 0;
+		height: 100%;
+	}
 
-       /* ============================ cta section start ============================== */
-       .cta-bg {
-            position: relative;
-            left: 0;
-            top: 0;
-            height: 400px;
-            width: 100%;
-            z-index: 1;
-        }
-        .cta-content {
-            max-width: 100%;
-            margin-right: auto;
-            margin-left: 0;
-        }
-        .cta-area {
-            padding: 0;
-            padding-bottom: 50px;
-            background-color: #4C4D4F;
-        }
-        .cta-area::before{
-            display: none;
-        }
-        .cta-area .title-line-animation-wrapper {
-            transform: rotate(90deg) translateX(-280px);
-            max-width: 383px;
-            margin-left: 70px;
-            margin-top: 0;
-        }
-       /* ============================ cta section end ============================== */
+	.bottom-arrow,
+	.top-arrow {
+		transform: translate(0px, 0px);
+	}
 
-       /* ============================ footer section end ============================== */
-       .footer-bottom-content  .row {
-            --bs-gutter-y: 30px;
-        }
-        .footer-title-wrapper h2 {
-            font-size: 48px;
-        }
-        .footer-inner-left-content {
-            gap: 15px;
-        }
-        .footer-shape-img {
-            top: -40px;
-        }
-       /* ============================ footer section end ============================== */
+	.quality-img-2 {
+		left: 50%;
+		opacity: 1;
+	}
+
+	.quality-img-2 {
+		max-width: 100%;
+		width: calc(100% - 50px);
+	}
+
+	/* ============================ banner section start ============================== */
+
+	/* ============================ quality section start ============================== */
+	.quality-area .col {
+		flex: 1 0 100%;
+	}
+    .quality-area .quality-inner-content ,
+	.quality-inner-content,
+	.quality-area .col:nth-child(1) {
+		max-width: 100%;
+	}
+
+	.quality-img-wrapper {
+		max-width: 500px;
+		margin-top: 0;
+		margin-bottom: -150px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* ============================ quality section end ============================== */
+	/* ============================ our services section start ============================== */
+	.our-services-area .col:nth-child(1) {
+		max-width: 100%;
+	}
+
+	.services-bg {
+		position: relative;
+		height: 400px;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.our-services-area::before {
+		top: 0;
+		height: 100%;
+		width: 100%;
+		;
+		transform: translateY(0px);
+		margin-top: 0;
+	}
+
+	/* ============================ our services section end ============================== */
+
+	/* ============================ about  section start ============================== */
+	.about-section-area .col:nth-child(1) {
+		max-width: 100%;
+		flex-basis: 100%;
+	}
+
+	.about-section-area .col {
+		flex: 1 0 100%;
+	}
+
+	.founded-conetn-box {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+
+	.about-section-area {
+		padding: 50px 0;
+	}
+
+	.founded-title-info h4 {
+		font-size: 24px;
+	}
+
+	.founded-title-info span {
+		font-size: 120px;
+	}
+    .integrated-btn {
+        font-size: 24px;
+    }
+	/* ============================ about  section end ============================== */
+
+	/* ============================ featured Projects section start ============================== */
+	.project-right-shape,
+	.project-left-shape {
+		display: none;
+	}
+
+	.title-info {
+		margin-left: 0;
+	}
+
+	.swiper-btn {
+		height: 50px;
+		width: 100px;
+	}
+
+	.swiper-button-next svg,
+	.swiper-button-prev svg {
+		height: 30px;
+		width: 30px;
+	}
+
+	.swiper-button-prev.swiper-btn {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+	}
+
+	.swiper-button-next.swiper-btn {
+		clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+	}
+
+	/* ============================ featured Projects section end ============================== */
+
+	/* ============================ cta section start ============================== */
+	.cta-bg {
+		position: relative;
+		left: 0;
+		top: 0;
+		height: 400px;
+		width: 100%;
+		z-index: 1;
+	}
+
+	.cta-content {
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: 0;
+	}
+
+	.cta-area {
+		padding: 0;
+		padding-bottom: 50px;
+		background-color: #4C4D4F;
+	}
+
+	.cta-area::before {
+		display: none;
+	}
+
+	.cta-area .title-line-animation-wrapper {
+		transform: rotate(90deg) translateX(-280px);
+		max-width: 383px;
+		margin-left: 70px;
+		margin-top: 0;
+	}
+
+	/* ============================ cta section end ============================== */
+
+	/* ============================ footer section end ============================== */
+	.footer-bottom-content .row {
+		--bs-gutter-y: 30px;
+	}
+
+	.footer-title-wrapper h2 {
+		font-size: 48px;
+	}
+
+	.footer-inner-left-content {
+		gap: 15px;
+	}
+
+	.footer-shape-img {
+		top: -40px;
+	}
+
+	/* ============================ footer section end ============================== */
 }
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
-/* ============================ banner section start ============================== */
-    .banner-content h1 {
-        font-size: 60px;
-    }
-    .banner-area .animation-line-wrapper {
-        padding: 70px 0;
-        padding-left: 70px;
-    }
-    .wrapper-line-1::before {
-        top: -25px;
-        height: calc(100% + 50px);
 
-    }
-/* ============================ banner section start ============================== */
+	/* ============================ banner section start ============================== */
+	.banner-content h1 {
+		font-size: 60px;
+	}
 
-        /* ============================ about  section start ============================== */
-        .about-section-area .title-wrapper h2 {
-            margin-bottom: 0;
-        }
-        .title-wrapper {
-            gap: 10px;
-            flex-direction: column;
-        }
-        /* ============================ about  section end ============================== */
+	.banner-area .animation-line-wrapper {
+		padding: 70px 0;
+		padding-left: 70px;
+	}
 
-        /* ============================ featured Projects section start ============================== */
-        .featured-button-wrapper > div {
-            flex: 1 0 100%;
-        }
-        .featured-button-wrapper.d-flex.align-items-center {
-            max-width: 100%;
-            flex-direction: column;
-        }
-        .featured-line-wrapper {
-            max-width: 100%;
-        }
-        .featured-line-wrapper span {
-            height: 2px;
-            width: 250px;
-            transform: skewX(0deg);
-            display: block;
-            margin-bottom: 4px;
-        }
-        .featured-line-wrapper span:last-child{
-            margin-bottom: 0;
-        }
-        .project-slider-img img {
-            min-height: 300px;
-        }
-        .featured-project-slider-area .swiper-button-next, .featured-project-slider-area .swiper-button-prev {
-            top: calc(50% - 55px);
-        }
-        /* ============================ featured Projects section end ============================== */
-        /* ============================ cta section start ============================== */
-                .cta-area .title-line-animation-wrapper {
-                    margin-left: 20px;
-                }
-                .cta-area .title-line-animation-wrapper {
-                    transform: rotate(90deg) translateX(-325px);
-                    max-width: 383px;
-                    margin-left: 70px;
-                    margin-top: 0;
-                }
-        /* ============================ cta section end ============================== */
+	.wrapper-line-1::before {
+		top: -25px;
+		height: calc(100% + 50px);
 
-        /* ============================ footer section start ============================== */
-        .copy-right-content-wrapper .col {
-            flex: 1 0 100%;
-        }
-        .other-link-wrapper{
-            margin-top: 30px;
-        }
-        .other-link-wrapper {
-            margin-top: 10px;
-        }
-        /* ============================ footer section end ============================== */
+	}
+
+	/* ============================ banner section start ============================== */
+
+	/* ============================ about  section start ============================== */
+	.about-section-area .title-wrapper h2 {
+		margin-bottom: 0;
+	}
+
+	.title-wrapper {
+		gap: 10px;
+		flex-direction: column;
+	}
+
+	/* ============================ about  section end ============================== */
+
+	/* ============================ featured Projects section start ============================== */
+	.featured-button-wrapper>div {
+		flex: 1 0 100%;
+	}
+
+	.featured-button-wrapper.d-flex.align-items-center {
+		max-width: 100%;
+		flex-direction: column;
+	}
+
+	.featured-line-wrapper {
+		max-width: 100%;
+	}
+
+	.featured-line-wrapper span {
+		height: 2px;
+		width: 250px;
+		transform: skewX(0deg);
+		display: block;
+		margin-bottom: 4px;
+	}
+
+	.featured-line-wrapper span:last-child {
+		margin-bottom: 0;
+	}
+
+	.project-slider-img img {
+		min-height: 300px;
+	}
+
+	.featured-project-slider-area .swiper-button-next,
+	.featured-project-slider-area .swiper-button-prev {
+		top: calc(50% - 55px);
+	}
+
+	/* ============================ featured Projects section end ============================== */
+	/* ============================ cta section start ============================== */
+	.cta-area .title-line-animation-wrapper {
+		margin-left: 20px;
+	}
+
+	.cta-area .title-line-animation-wrapper {
+		transform: rotate(90deg) translateX(-325px);
+		max-width: 383px;
+		margin-left: 70px;
+		margin-top: 0;
+	}
+
+	/* ============================ cta section end ============================== */
+
+	/* ============================ footer section start ============================== */
+	.copy-right-content-wrapper .col {
+		flex: 1 0 100%;
+	}
+
+	.other-link-wrapper {
+		margin-top: 30px;
+	}
+
+	.other-link-wrapper {
+		margin-top: 10px;
+	}
+
+	/* ============================ footer section end ============================== */
 }
 
 /* max-width 575 */
 @media (max-width: 575.98px) {
-    h1 {
-        font-size: 40px;
-    }
+	h1 {
+		font-size: 40px;
+	}
 
-    .cta-content h2 ,
-    .project-slider-content h2,
-    h2 {
-        font-size: 36px;
-    }
+	.cta-content h2,
+	.project-slider-content h2,
+	h2 {
+		font-size: 36px;
+	}
 
-    h3 {
-        font-size: 24px;
-    }
+	h3 {
+		font-size: 24px;
+	}
 
-/* ============================ banner section start ============================== */
-.bottom-arrow {
-    right: 50px;
- 
-}
-/* ============================ banner section end ============================== */
+	/* ============================ banner section start ============================== */
+	.bottom-arrow {
+		right: 50px;
+
+	}
+
+	/* ============================ banner section end ============================== */
 }
 
 /* max-width 479 */
 @media (max-width: 479.98px) {
-    .footer-title-wrapper h2 ,
-    .cta-content h2 ,
-    .project-slider-content h2,
-    h2 {
-        font-size: 32px;
-    }
 
-    /* ============================ banner section start ============================== */
-    .banner-content h1 {
-        font-size: 48px;
-    }
-    .bottom-arrow {
-        right: 0px;
-    }
-    /* ============================ banner section end ============================== */
-        /* ============================ about  section start ============================== */
-        .founded-title-info h4 {
-            font-size: 20px;
-        }
-        .founded-title-info span {
-            font-size: 100px;
-        }
-        /* ============================ about  section end ============================== */
+	.footer-title-wrapper h2,
+	.cta-content h2,
+	.project-slider-content h2,
+	h2 {
+		font-size: 32px;
+	}
 
-        /* ============================ cta section start ============================== */
-        .cta-area .title-line-animation-wrapper {
-            transform: rotate(90deg) translateX(-325px);
-        }
-        /* ============================ cta section end ============================== */
-        .featured-project-slider-area .swiper-button-next, .featured-project-slider-area .swiper-button-prev {
-            top: calc(50% - 49px);
-        }
-        .footer-title-wrapper {
-            padding-top: 80px;
-        }
-        .footer-bottom-content {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
+	/* ============================ header section start ============================== */
+	.header-area .menu-left::before {
+		right: -80px;
+	}
+
+	/* ============================ header section start ============================== */
+
+	/* ============================ banner section start ============================== */
+	.banner-content h1 {
+		font-size: 48px;
+	}
+
+	.bottom-arrow {
+		right: 0px;
+	}
+
+	/* ============================ banner section end ============================== */
+	/* ============================ about  section start ============================== */
+	.founded-title-info h4 {
+		font-size: 20px;
+	}
+
+	.founded-title-info span {
+		font-size: 100px;
+	}
+
+	/* ============================ about  section end ============================== */
+
+	/* ============================ cta section start ============================== */
+	.cta-area .title-line-animation-wrapper {
+		transform: rotate(90deg) translateX(-325px);
+	}
+
+	/* ============================ cta section end ============================== */
+	.featured-project-slider-area .swiper-button-next,
+	.featured-project-slider-area .swiper-button-prev {
+		top: calc(50% - 49px);
+	}
+
+	.footer-title-wrapper {
+		padding-top: 80px;
+	}
+
+	.footer-bottom-content {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 }
 
 /* max-width 383 */
 @media (max-width: 383.98px) {
-          /* ============================ cta section start ============================== */
-          .cta-area .title-line-animation-wrapper {
-            transform: rotate(90deg) translateX(-368px);
-        }
-        /* ============================ cta section end ============================== */
-        .quality-inner-content, .quality-content h2 {
-            margin-left: 20px;
-        }
+
+
+	/* ============================ header section start ============================== */
+	.header-area .menu-left::before {
+		right: -80px;
+	}
+
+	.header-logo img {
+		max-width: 120px;
+	}
+
+	.header-area .menu-left::before {
+		right: -55px;
+	}
+
+	/* ============================ header section start ============================== */
+	/* ============================ cta section start ============================== */
+	.cta-area .title-line-animation-wrapper {
+		transform: rotate(90deg) translateX(-368px);
+	}
+
+	/* ============================ cta section end ============================== */
+	.quality-inner-content,
+	.quality-content h2 {
+		margin-left: 20px;
+	}
 }
 
 @media (max-width: 360px) {
-    .banner-area .animation-line-wrapper {
-        padding: 70px 0;
-        padding-left: 44px;
-    }
+	.banner-area .animation-line-wrapper {
+		padding: 70px 0;
+		padding-left: 44px;
+	}
 }
